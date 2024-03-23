@@ -132,6 +132,7 @@
           <ul class="team-list">
             <li class="team-card">
               <img
+                srcset="./images/mark.jpg 1x, ./images/mark@2x.jpg 2x"
                 src="./images/mark.jpg"
                 alt="Mark Guerrero"
                 width="264"
@@ -190,6 +191,7 @@
             </li>
             <li class="team-card">
               <img
+                srcset="./images/tom.jpg 1x, ./images/tom@2x.jpg 2x"
                 src="./images/tom.jpg"
                 alt="Tom Ford"
                 width="264"
@@ -248,6 +250,7 @@
             </li>
             <li class="team-card">
               <img
+                srcset="./images/camila.jpg 1x, ./images/camila@2x.jpg 2x"
                 src="./images/camila.jpg"
                 alt="Camila Garcia"
                 width="264"
@@ -306,6 +309,7 @@
             </li>
             <li class="team-card">
               <img
+                srcset="./images/daniel.jpg 1x, ./images/daniel@2x.jpg 2x"
                 src="./images/daniel.jpg"
                 alt="Daniel Wilson"
                 width="264"
@@ -373,6 +377,10 @@
             <li class="portfolio-item">
               <div class="container-overlay">
                 <img
+                  srcset="
+                    ./images/banking-app.jpg    1x,
+                    ./images/banking-app@2x.jpg 2x
+                  "
                   src="./images/banking-app.jpg"
                   alt="Banking App"
                   class="portfolio-item-img"
@@ -392,6 +400,10 @@
             <li class="portfolio-item">
               <div class="container-overlay">
                 <img
+                  srcset="
+                    ./images/cashless-payment.jpg    1x,
+                    ./images/cashless-payment@2x.jpg 2x
+                  "
                   src="./images/cashless-payment.jpg"
                   alt="Cashless Payment"
                   class="portfolio-item-img"
@@ -412,6 +424,10 @@
             <li class="portfolio-item">
               <div class="container-overlay">
                 <img
+                  srcset="
+                    ./images/meditation-app.jpg    1x,
+                    ./images/meditation-app@2x.jpg 2x
+                  "
                   src="./images/meditation-app.jpg"
                   alt="Meditation App"
                   class="portfolio-item-img"
@@ -432,6 +448,10 @@
             <li class="portfolio-item">
               <div class="container-overlay">
                 <img
+                  srcset="
+                    ./images/taxi-service.jpg    1x,
+                    ./images/taxi-service@2x.jpg 2x
+                  "
                   src="./images/taxi-service.jpg"
                   alt="Taxi Service"
                   class="portfolio-item-img"
@@ -453,6 +473,10 @@
             <li class="portfolio-item">
               <div class="container-overlay">
                 <img
+                  srcset="
+                    ./images/screen-illustrations.jpg    1x,
+                    ./images/screen-illustrations@2x.jpg 2x
+                  "
                   src="./images/screen-illustrations.jpg"
                   alt="Screen Illustrations"
                   class="portfolio-item-img"
@@ -473,6 +497,10 @@
             <li class="portfolio-item">
               <div class="container-overlay">
                 <img
+                  srcset="
+                    ./images/online-courses.jpg    1x,
+                    ./images/online-courses@2x.jpg 2x
+                  "
                   src="./images/online-courses.jpg"
                   alt="Online Courses"
                   class="portfolio-item-img"
@@ -578,9 +606,101 @@
         </div>
       </div>
     </footer>
+    <div class="mobile-menu">
+      <button
+        type="button"
+        class="modal-close-button"
+        id="mobile-menu-close-button"
+      >
+        <svg class="modal-close-icon" width="8" height="8">
+          <use href="./images/icons.svg#icon-close"></use>
+        </svg>
+      </button>
+      <div class="moblie-menu-wrap">
+        <nav class="mobile-menu-nav">
+          <ul class="mobile-menu-nav-list">
+            <li class="mobile-menu-nav-item">
+              <a href="" class="mobile-menu-nav-link">Studio</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+              <a href="" class="mobile-menu-nav-link">Portfolio</a>
+            </li>
+            <li class="mobile-menu-nav-item">
+              <a href="" class="mobile-menu-nav-link">Contacts</a>
+            </li>
+          </ul>
+        </nav>
+        <address class="mobile-menu-address">
+          <ul class="mobile-menu-address-list">
+            <li class="mobile-menu-address-item">
+              <a href="tel:+110001111111" class="mobile-menu-address-link"
+                >+11 (000) 111-11-11</a
+              >
+            </li>
+            <li class="mobile-menu-address-item">
+              <a
+                href="mailto:info@devstudio.com"
+                class="mobile-menu-address-link"
+                >info@devstudio.com</a
+              >
+            </li>
+          </ul>
+        </address>
+        <ul class="mobile-menu-social-list">
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link"
+              href="https://www.instagram.com/"
+              target="_blank"
+            >
+              <svg width="24" height="24" class="mobile-menu-social-icon">
+                <use href="./images/icons.svg#icon-instagram"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link"
+              href="https://www.twitter.com/"
+              target="_blank"
+            >
+              <svg width="24" height="24" class="mobile-menu-social-icon">
+                <use href="./images/icons.svg#icon-twitter"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link"
+              href="https://www.facebook.com/"
+              target="_blank"
+            >
+              <svg width="24" height="24" class="mobile-menu-social-icon">
+                <use href="./images/icons.svg#icon-facebook"></use>
+              </svg>
+            </a>
+          </li>
+          <li class="mobile-menu-social-item">
+            <a
+              class="mobile-menu-social-link"
+              href="https://www.linkedin.com/"
+              target="_blank"
+            >
+              <svg width="24" height="24" class="mobile-menu-social-icon">
+                <use href="./images/icons.svg#icon-linkedin"></use>
+              </svg>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
     <div class="backdrop">
       <div class="modal">
-        <button type="button" class="modal-close-button">
+        <button
+          type="button"
+          class="modal-close-button"
+          id="modal-close-button"
+        >
           <svg class="modal-close-icon" width="8" height="8">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
@@ -653,13 +773,16 @@
                   <use href="./images/icons.svg#icon-checkbox"></use>
                 </svg>
               </span>
-              I accept the terms and conditions of the
-              <a href="" class="modal-link">Privacy Policy</a>
+              <span class="modal-checkbox-text">
+                I accept the terms and conditions of the
+                <a href="" class="modal-link">Privacy Policy</a>
+              </span>
             </label>
           </div>
           <button type="submit" class="modal-send-button">Send</button>
         </form>
       </div>
     </div>
+    <script type="module" src="./app/app.js"></script>
   </body>
 </html>
